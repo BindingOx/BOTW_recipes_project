@@ -1,8 +1,15 @@
 /* https://every-single-one-of-the-things.tumblr.com/post/654079514294566912/breath-of-the-wild-2-skyward-sword */
 
+header {
+  max-width: max-content;
+  margin: auto;
+}
+
 body {
   /* background-color: #89e7d0; */
   background-color: #f5faff;
+  max-width: max-content;
+  margin: auto;
 }
 
 h1,
@@ -13,18 +20,19 @@ th {
 }
 
 td {
-  color: #40b29f;
+  /* color: #40b29f; */
+  border: 0.5rem outset #40b29f;
+  padding: 1rem;
 }
 
-p,
-li {
+tr * {
   color: #2b8091;
 }
 
-table {
+table tbody {
   border: 1px solid;
-  /* background-color: #f5faff; */
-  background-color: #89e7d0;
+  background-color: #f5faff;
+  /* background-color: #89e7d0; */
 }
 
 span {
@@ -33,6 +41,7 @@ span {
 
 a {
   text-decoration: none;
+  text-decoration: underline;
 }
 
 button {
