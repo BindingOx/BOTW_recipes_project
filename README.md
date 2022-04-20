@@ -1,2 +1,2 @@
 # Project0
-culmination of my learnings
+learning repo using the first recipes project from The Odin Project
